@@ -1,0 +1,78 @@
+/* Overall page styling */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(to bottom, #c0c0c0, #808080);
+  font-family: Arial, sans-serif;
+}
+
+/* Center the game container */
+.game-container {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+
+/* Heading styling */
+.heading {
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* Board styling */
+.board-row {
+  display: flex;
+  justify-content: center;
+}
+
+/* Square styling */
+.square {
+  background-color: #fff;
+  border: 2px solid #333;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 60px;
+  height: 60px;
+  width: 60px;
+  margin-right: -2px;
+  margin-top: -2px;
+  padding: 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.square:hover {
+  background-color: #ddd;
+}
+
+/* Game status styling */
+.status {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Play Again button styling */
+.play-again-button {
+  position: absolute;
+  bottom: -50px; /* Positioning the button 50px below the game container */
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.play-again-button:hover {
+  background-color: #555;
+}
